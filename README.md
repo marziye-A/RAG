@@ -3,9 +3,7 @@
 
 See `install.sh`
 ```
-conda create -n Skew-PromptKD python=3.8
-conda activate Skew-PromptKD
-bash install.sh
+pip install torch transformers accelerate faiss-cpu rank-bm25 bert-score tqdm numpy scipy
 ```
 
 ###
